@@ -1,10 +1,10 @@
-package level3;
+package level3_objektorientiert;
 
 /**
- * LEVEL 3 – Klasse: ErweiterteOperationen
+ * LEVEL 3 â€“ Klasse: ErweiterteOperationen
  *
- * Diese Klasse enthält mathematische Operationen,
- * die über die vier Grundrechenarten hinausgehen.
+ * Diese Klasse enthÃ¤lt mathematische Operationen,
+ * die Ã¼ber die vier Grundrechenarten hinausgehen.
  * Sie wird als Objekt in der Klasse Taschenrechner verwendet (Komposition).
  */
 public class ErweiterteOperationen {

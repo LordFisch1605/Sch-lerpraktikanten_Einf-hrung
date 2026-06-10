@@ -1,10 +1,10 @@
-package level4;
+package level4_gui;
 
 /**
- * LEVEL 4 – Klasse: Grundrechenarten
+ * LEVEL 4 â€“ Klasse: Grundrechenarten
  *
- * Identisch zu Level 3 – die Rechen-Logik ändert sich nicht,
- * nur die Benutzeroberfläche wurde auf eine GUI umgestellt.
+ * Identisch zu Level 3 â€“ die Rechen-Logik Ã¤ndert sich nicht,
+ * nur die BenutzeroberflÃ¤che wurde auf eine GUI umgestellt.
  */
 public class Grundrechenarten {
 

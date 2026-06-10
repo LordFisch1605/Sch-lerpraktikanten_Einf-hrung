@@ -1,12 +1,12 @@
-package level3;
+package level3_objektorientiert;
 
 import java.util.Scanner;
 
 /**
- * LEVEL 3 – Klasse: Taschenrechner
+ * LEVEL 3 â€“ Klasse: Taschenrechner
  *
- * Diese Klasse steuert das Menü und die Benutzerinteraktion.
- * Sie verwendet Objekte von Grundrechenarten und ErweiterteOperationen –
+ * Diese Klasse steuert das MenÃ¼ und die Benutzerinteraktion.
+ * Sie verwendet Objekte von Grundrechenarten und ErweiterteOperationen â€“
  * das nennt man "Komposition": eine Klasse nutzt andere Klassen.
  */
 public class Taschenrechner {
@@ -23,7 +23,7 @@ public class Taschenrechner {
         this.scanner = new Scanner(System.in);
     }
 
-    // Diese Methode startet den Taschenrechner und zeigt das Menü an
+    // Diese Methode startet den Taschenrechner und zeigt das MenÃ¼ an
     public void starten() {
         int auswahl = -1;
 
@@ -43,7 +43,7 @@ public class Taschenrechner {
         System.out.println("3) Multiplikation (*)");
         System.out.println("4) Division       (/)");
         System.out.println("5) Potenz         (x^y)");
-        System.out.println("6) Wurzel         (√x)");
+        System.out.println("6) Wurzel         (âˆšx)");
         System.out.println("0) Beenden");
         System.out.print("Deine Auswahl: ");
     }
@@ -56,7 +56,7 @@ public class Taschenrechner {
             // Wurzel braucht nur eine Zahl, deshalb wird hier separat abgefragt
             System.out.print("Zahl: ");
             double a = scanner.nextDouble();
-            System.out.println("Ergebnis: √" + a + " = " + erweiterteOperationen.wurzel(a));
+            System.out.println("Ergebnis: âˆš" + a + " = " + erweiterteOperationen.wurzel(a));
 
         } else if (auswahl >= 1 && auswahl <= 5) {
             System.out.print("Erste Zahl:  ");
@@ -66,7 +66,7 @@ public class Taschenrechner {
             rechnen(auswahl, a, b);
 
         } else {
-            System.out.println("Ungültige Auswahl! Bitte 0 bis 6 eingeben.");
+            System.out.println("UngÃ¼ltige Auswahl! Bitte 0 bis 6 eingeben.");
         }
     }
 

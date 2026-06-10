@@ -1,4 +1,4 @@
-package level1;
+package level1_prozedural;
 
 import java.util.Scanner;
 

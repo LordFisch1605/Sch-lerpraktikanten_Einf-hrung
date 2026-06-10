@@ -1,10 +1,10 @@
-package level3;
+package level3_objektorientiert;
 
 /**
- * LEVEL 3 – Klasse: Grundrechenarten
+ * LEVEL 3 â€“ Klasse: Grundrechenarten
  *
- * Diese Klasse ist in einer eigenen Datei und kümmert sich nur um
- * die vier Grundrechenarten. Jede Klasse hat eine klare Aufgabe –
+ * Diese Klasse ist in einer eigenen Datei und kÃ¼mmert sich nur um
+ * die vier Grundrechenarten. Jede Klasse hat eine klare Aufgabe â€“
  * das nennt man das "Prinzip der einzelnen Verantwortung".
  */
 public class Grundrechenarten {
